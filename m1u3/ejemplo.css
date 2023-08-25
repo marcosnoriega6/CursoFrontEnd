@@ -1,0 +1,21 @@
+h2{
+    color: blue;
+    /*comentario en css*/
+    text-transform: uppercase; /* puedo poner mayuscula/
+    text-align: center;/*alinear los textos*/
+
+}
+
+h1{
+    background-color: yellow;
+    font-family: Cambria;
+}
+p{
+    color: blue;
+    line-height: 50px;
+}
+
+#caja{ 
+    background-color: blueviolet;
+    width: 300px;
+}

@@ -1,0 +1,58 @@
+h1{
+    color: purple;
+    text-align: center;
+    text-shadow: 6px -2px 9px rgba(174,42,42,0.7);  
+     
+}
+
+h2{
+    color: grey;
+    font-style: italic;
+    font-family: Cambria;
+    text-align: center;
+}
+
+#principal{
+    background-color: khaki;
+}
+#chars{
+    background-color: yellowgreen;
+    color: blue;
+    border: 27px double rgba(41,95,237,0.9);
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    box-shadow: 32px 10px 24px -200px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 32px 10px 24px -200px rgba(0,0,0,0.75);
+    -moz-box-shadow: 32px 10px 24px -200px rgba(0,0,0,0.75);
+    text-align: center;
+    margin-inline: 11cm;
+
+}
+#foto{
+    text-align: center;
+}
+
+
+
+.cuadro{
+    display: flex;
+    margin-inline: 9cm;
+    justify-content: space-evenly;
+    flex-direction: row; 
+}
+
+.pregunta{
+    text-align: center; 
+    border: 20px double #bf4636;
+    background-color: lightpink;
+    width: 200px;
+    height: 150px;
+}
+ 
+#negrita{
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1cm;
+}
