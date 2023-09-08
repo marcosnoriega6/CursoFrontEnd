@@ -1,0 +1,31 @@
+#cuadradito1{
+    background-color:red;
+    width: 200px;
+    height: 150px;
+}
+
+#cuadradito2{
+    background-color:yellow;
+    width: 200px;
+    height: 150px;
+}
+#cuadradito3{
+    background-color:blue;
+    width: 200px;
+    height: 150px;
+}
+.cuadrados{
+    display: flex;
+    flex-direction: row; 
+}
+
+
+
+html, body{
+    height: 100%;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    background-color: thistle;
+
+}

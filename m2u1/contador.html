@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" id="texto"> </input>
+
+        <p > La cantidad de palabras es  <span id="contador">0</span></p>
+<script type="text/javascript">
+    
+    document.getElementById('texto').addEventListener('input',function(){
+        document.getElementById('contador').textContent= document. getElementById('texto').value.length
+
+    }
+        
+    )   
+</script>
+</body>
+</html>
