@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nori Accommodation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Orbitron&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css_index.css">
+    <style>
+    
+
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Locations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Reviews</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            My account
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Bills</a></li>
+                            <li><a class="dropdown-item" href="#">Bookings</a></li>
+                            <li><a class="dropdown-item" href="#">Interests</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row align-items-start" id="home">
+            <div class="jumbotron">
+                <div class="container"> 
+                    <div class="col-lg-4 offset-lg-4"> 
+                        <h1 class="text-center" id="Titulo"> Nori Accommodation</h1>
+                        <p class="text-center"> Looking for an economically friendly and attractive place to vacation? You've entered to the right site.</p>
+                    </div>
+                </div>
+            </div>
+            
+                <div class= container-fluid id="secciones"> 
+                    <div class="row"> 
+                        <div class="col">
+                            <h3 class="Titles" > News</h3>
+                             <ul class="list-group">
+                                 <li class="list-group-item opcion " data-bs-toggle="modal" data-bs-target="#Modal1">
+                                     <img src="students.jpeg" class="img-fluid" style="max-width: 100px;">
+                                     <p class="opciones"> Discount for students during Springbreak! </p>
+                                 </li>
+                                 <li class="list-group-item opcion " data-bs-toggle="modal" data-bs-target="#Modal2">
+                                     <img src="jersey.jpeg"  class="img-fluid" style="max-width: 100px;">
+                                     <p class="opciones"> Now available in New Jersey! </p>
+                                     
+                                 </li>
+                                 <li class="list-group-item opcion " data-bs-toggle="modal" data-bs-target="#Modal3">
+                                     <img src="desayuno.jpeg"  class="img-fluid" style="max-width: 100px;">
+                                     <p class="opciones"> New menú in our buffet!</p>
+                                     
+                                 </li>
+                             </ul>
+     
+                             <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="Modal1Label" aria-hidden="true">
+                                 <div class="modal-dialog modal-dialog-center">
+                                   <div class="modal-content">
+                                     <div class="modal-header">
+                                       <h1 class="modal-title fs-5" id="Modal1">Discount during sprinbreak!</h1>
+                                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                     </div>
+                                     <div class="modal-body">
+                                       <img src="students.jpeg" alt="" class="img-fluid"  style="max-width: 220px;"> 
+                                       <div> This year's springbreak if your present your certificate of student you will be given a discount of 30% in shared rooms! Do not miss the oportunity!</div>
+                                     </div>
+                                     <div class="modal-footer">
+                                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                     </div>
+                                   </div>
+                                 </div>
+                               </div>
+                               <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="Modal2Label" aria-hidden="true">
+                                 <div class="modal-dialog">
+                                   <div class="modal-content">
+                                     <div class="modal-header">
+                                       <h1 class="modal-title fs-5" id="Modal2">Establishment in New Jersey</h1>
+                                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                     </div>
+                                     <div class="modal-body">
+                                         <img src="jersey.jpeg" alt="" class="img-fluid"  style="max-width: 220px;"> 
+                                         <div> After government approval we are glad to announce that by late August our new accommodation in the heart of New Jersey city will be open. </div>
+                                     </div>
+                                     </div>
+                                     <div class="modal-footer">
+                                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                      
+                                     </div>
+                                   </div>
+                                 </div>
+                                 <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="Modal3Label" aria-hidden="true">
+                                     <div class="modal-dialog">
+                                       <div class="modal-content">
+                                         <div class="modal-header">
+                                           <h1 class="modal-title fs-5" id="Modal3">New Breakfast options</h1>
+                                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                         </div>
+                                         <div class="modal-body">
+                                             <img src="desayuno.jpeg" alt="" class="img-fluid"  style="max-width: 220px;"> 
+                                             <div> In order to guarantee that your stay is as healthy and pleasant as possible we have incorporated many nutritive options to your breakfast. Remember that the breakfast time is from 7 to 10! </div>
+                                         </div>
+                                         <div class="modal-footer">
+                                           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                          
+                                         </div>
+                                       </div>
+                                     </div>
+                                   </div>
+                               </div>
+                         </div>
+                         <div class ="col-lg-3">
+                             <h3 class="Titles"> Reviews</h3>
+                             <div id="Reviews" class="carousel slide" data-bs-ride="carousel">
+                                 <div class="carousel-inner">
+                                   <div class="carousel-item active">
+                                     <p> "I really enojed my stay in Manhattan. Nice staff. A bit noisy during nights tho."</p>
+                                     <p class="puntuación"> 4/5</p>
+                                   </div>
+                                   <div class="carousel-item">
+                                    <p> "Charming place. Really recommend it if you are into chill venues and family environments."</p>
+                                     <p class="puntuación">  5/5</p>
+                                   </div>
+                                   <div class="carousel-item">
+                                      <p>"One of the best accommodation alternatives you may find in Denver. The bar is a bit pricy but people are really social!</p>
+                                     <p class="puntuación">  4/5</p>
+                                   </div>
+                                 </div>
+                               </div>
+     
+     
+                         </div>
+
+
+                    </div>
+                
+                </div>        
+                    
+                   
+        
+    </div>
+
+    <footer>
+        <p class= "text-center"> Designed by Marcos Noriega</p>
+    </footer>
+
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
