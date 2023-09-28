@@ -42,6 +42,7 @@ body{
     height: 100%;
     opacity: 0.4; /* ajusta transparencia*/
     z-index: -1; 
+}
 .jumbotron.container {
     display: flex;
     flex-direction: column;
@@ -78,7 +79,7 @@ body{
 .modal-body{
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
 }
 
 
@@ -87,9 +88,10 @@ body{
     text-align: center;
 }
 
-#Reviews{
+.textos{
     border: 20px groove #8950ff;
     background-color: lightcyan;
+    vertical-align: middle;
 
 }
 
@@ -103,7 +105,8 @@ body{
     border: 10px inset #50aaff;
     font-family: 'Alfa Slab One', cursive;
     font-family: 'Orbitron', sans-serif;
-
+    margin-top: 70px;
+    margin-bottom: 30px;
 }
 
 #secciones{
@@ -117,4 +120,35 @@ body{
 .puntuación{
     font-weight: bold;
     font-size: 0.75cm;
+}
+.card-img-top{
+    align-items: center;
+}
+
+#visitus{
+    align-items: center;
+}
+
+.card{
+    align-items: center;
+}
+
+.cuadros{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.scroll_section{
+    scroll-margin-top: 70px;
+}
+
+#textohistoria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
