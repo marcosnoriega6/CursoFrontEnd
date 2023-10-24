@@ -1,0 +1,154 @@
+.nav-item{
+
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Orbitron', sans-serif;
+
+}
+
+#navbarNavDropdown{
+    background-color: lightskyblue;
+    border: 10px groove #a350ff;
+}
+
+body{
+    background-color: lightsteelblue;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    min-height: 100vh; 
+}
+.jumbotron {
+    color:black; 
+    text-align: end;   
+    font-family: 'Rubik Mono One', sans-serif;
+
+
+}
+
+.jumbotron::before {
+    content: "";
+    background-image: url("/images/Mesa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4; /* ajusta transparencia*/
+    z-index: -1; 
+}
+.jumbotron.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; 
+    padding:15 ppx
+   
+}
+
+.opcion:hover{
+    background-color: lightblue; 
+    cursor: pointer; 
+
+}
+.opciones{
+    font-family: cursive;
+}
+
+.opcion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.opcion img{
+    margin-right: 10px;
+
+}
+
+.opcion text{
+    text-align: center;
+}
+
+.modal-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.modal-title{ 
+    font-family: cursive;
+    text-align: center;
+}
+
+.textos{
+    border: 20px groove #8950ff;
+    background-color: lightcyan;
+    vertical-align: middle;
+
+}
+
+.carousel-item{
+    text-align: center;
+}
+
+.Titles{
+    text-align: center;
+    background-color: lightskyblue;
+    border: 10px inset #50aaff;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+#secciones{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    
+}
+
+.puntuación{
+    font-weight: bold;
+    font-size: 0.75cm;
+}
+.card-img-top{
+    align-items: center;
+}
+
+#visitus{
+    align-items: center;
+}
+
+.card{
+    align-items: center;
+}
+
+.cuadros{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.scroll_section{
+    scroll-margin-top: 70px;
+}
+
+#textohistoria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
